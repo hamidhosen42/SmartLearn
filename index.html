@@ -1,65 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ! GOOGLE FONTs -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- !ICON  -->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
+  <!-- ! GOOGLE FONTs -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
 
-    <!-- !Title -->
-    <title>
-      Responsive Multipage Education Website Using HTML, CSS & JavaScript
-    </title>
+  <!-- !ICON  -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 
-    <!--! CSS connect -->
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
+  <!-- !Title -->
+  <title>
+    Responsive Multipage Education Website Using HTML, CSS & JavaScript
+  </title>
 
-  <body>
-    <!-- !=============Navbar section =============== -->
-    <nav>
-      <div class="container nav_container">
-        <a href="index.html"><h4>EGATOR</h4></a>
-        <ul class="nav_menu">
-          <li><a href="index.html">H O M E</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="courses.html">COURSES</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
-        <button id="close-menu-btn"><i class="uil uil-multiply"></i></i></button>
+  <!--! CSS connect -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- !=============Navbar section =============== -->
+  <nav>
+    <div class="container nav_container">
+      <a href="index.html">
+        <h4>EGATOR</h4>
+      </a>
+      <ul class="nav_menu">
+        <li><a href="index.html">H O M E</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="courses.html">COURSES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+      <button id="close-menu-btn"><i class="uil uil-multiply"></i></i></button>
+    </div>
+  </nav>
+  <!-- !========== END NAvBar-->
+
+  <!-- !===============START HEADER SECTION=========== -->
+
+  <header>
+    <div class="container header__container">
+      <div class="header_left">
+        <h1>Grow your skill to advance your career path</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique consequatur est? Quis esse, alias
+          eaque culpa unde omnis error assumenda quos, ipsam minima ea, quaerat nobis iure aperiam nostrum.</p>
+        <a href="courses.html" class="btn btn-primary">GET STARTED</a>
       </div>
-    </nav>
-    <!-- !========== END NAvBar-->
-
-    <!-- !===============START HEADER SECTION=========== -->
-
-    <header>
-      <div class="container header__container">
-        <div class="header_left">
-          <h1>Grow your skill to advance your career path</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique consequatur est? Quis esse, alias eaque culpa unde omnis error assumenda quos, ipsam minima ea, quaerat nobis iure aperiam nostrum.</p>
-          <a href="courses.html" class="btn btn-primary">GET STARTED</a>
-        </div>
-        <div class="header_right">
-          <img src="./images/header.svg" alt="">
-        </div>
+      <div class="header_right">
+        <img src="./images/header.svg" alt="">
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- !============END OF THEE HEADER========= -->
-  </body>
+  <!-- !============END OF THEE HEADER========= -->
+
+  <!-- !============START OF CATEGORIES========= -->
+  <section class="categories">
+    <div class="container categories__container">
+      <div class="categories__left">
+        <h1>Categories</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta molestias, fuga tempore in, iste
+          voluptatem laborum repellendus quasi sit corrupti nesciunt vitae eius odio repellat eligendi nostrum
+          blanditiis corporis.</p>
+        <a href="#" class="btn">LEARN MORE</a>
+      </div>
+      <div class="categories__right">
+        <article class="category">
+          <span class="category__icon">
+            <i class="uil uil-bitcoin-circle"></i>
+          </span>
+          <h5>BLOCKCHAIN</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, impedit!</p>
+        </article>
+        <article class="category">
+          <span class="category__icon">
+            <i class="uil uil-palette"></i>
+          </span>
+          <h5>GRAPHIC DESIGN</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, impedit!</p>
+        </article>
+        
+        <article class="category">
+          <span class="category__icon">
+            <i class="uil uil-usd-circle"></i>
+          </span>
+          <h5>FINANCE</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, impedit!</p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon">
+            <i class="uil uil-megaphone"></i>
+          </span>
+          <h5>MARKETING</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, impedit!</p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon">
+            <i class="uil uil-music"></i>
+          </span>
+          <h5>MUSIC</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, impedit!</p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon">
+            <i class="uil uil-puzzle-piece"></i>
+          </span>
+          <h5>BUSINESS</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, impedit!</p>
+        </article>
+      </div>
+    </div>
+  </section>
+    <!-- !============END OF CATEGORIES========= -->
+</body>
+
 </html>
