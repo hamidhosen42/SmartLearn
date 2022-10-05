@@ -37,7 +37,7 @@ body {
 
 .container {
     width: var(--container-width-lg);
-    margin: 0 5rem;
+    margin: 0 auto;
 }
 
 section {
@@ -287,4 +287,50 @@ header {
 .course__info p {
     font-size: 0.9rem;
     margin: 1.2rem 0 2rem;
+}
+
+
+/* !=========frequency asked question==== */
+
+.faqs {
+    background-color: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.faqs__contariner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.faq {
+    background-color: var(--color-primary);
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+}
+
+.faq__icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.faq p {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    text-align: justify;
+    display: none;
+}
+
+.faq.open p {
+    display: block;
 }
